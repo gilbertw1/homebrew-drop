@@ -6,6 +6,7 @@ class Drop < Formula
   head "https://github.com/gilbertw1/drop.git"
 
   depends_on "rust" => :build
+  depends_on "s3cmd" => :run
 
   def install
     system "cargo", "build", "--release"

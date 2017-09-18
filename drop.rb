@@ -1,8 +1,8 @@
 class Drop < Formula
   desc "A simple screenshot, screencast, and file upload tool with S3 support"
   homepage "https://github.com/gilbertw1/drop"
-  url "https://github.com/gilbertw1/drop/archive/0.2.7.tar.gz"
-  sha256 "7872fdbbed4b6d8ecf03cbf39f46896103c681a02e33f21ddd4293f736310c82"
+  url "https://github.com/gilbertw1/drop/archive/0.2.8.tar.gz"
+  sha256 "21a98e24b0fbb88fe9c2fd27122713f38fa16f7f50b35f2b42e731af54a463c2"
   head "https://github.com/gilbertw1/drop.git"
 
   depends_on "rust" => :build

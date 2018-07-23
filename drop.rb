@@ -5,8 +5,8 @@ class Drop < Formula
   sha256 "21a98e24b0fbb88fe9c2fd27122713f38fa16f7f50b35f2b42e731af54a463c2"
   head "https://github.com/gilbertw1/drop.git"
 
-  depends_on "rust" => :build
-  depends_on "s3cmd" => :run
+  depends_on "rust"
+  depends_on "s3cmd"
 
   def install
     system "cargo", "build", "--release"
